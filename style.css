@@ -1,0 +1,44 @@
+@media screen and (max-width: 767px) {
+  div {
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  div > p {
+    background-color: brown;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  div {
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  div > p {
+    background-color: white;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  div {
+    background-color: purple;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  div > p {
+    background-color: goldenrod;
+    display: flex;
+    align-items: center;
+  }
+}
